@@ -86,7 +86,12 @@
 **DVC (Data Version Control):**  
 Utilized for tracking pipeline changes via `dvc.yaml`. Run `dvc init` to initialize DVC, then configure your stages. Use `dvc repro` to rebuild only those stages that have changed.
 
-## How to Use
+### Some Other Scripts
 
+- **template.py:**  
+  This script sets up a standardized folder structure essential for developing the project. It helps maintain consistency across the workflow, making the project easier to manage, scale, and expand. By ensuring that required files and directories are created only if necessary, it upholds the principles of MLOps like modularity and reproducibility while reducing redundancy.
+
+- **utils/common.py:**  
+  Contains reusable util
 
 
