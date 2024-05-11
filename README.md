@@ -100,6 +100,52 @@ Utilized for tracking pipeline changes via `dvc.yaml`. Run `dvc init` to initial
 - **utils/common.py:**  
     Contains reusable utility functions for tasks like configuration management, file manipulation, logging, and data encoding. The functions are decorated with `@ensure_annotations`, ensuring that they adhere to specified type annotations for robust development and deployment. This makes debugging easier in large machine learning projects and ensures code consistency.
 
+# AWS and Azure CI/CD Deployment with GitHub Actions
+
+## AWS Deployment Steps
+
+### 1. Log in to the AWS Console
+
+### 2. Create an IAM User for Deployment
+
+   Provide the new IAM user with appropriate access permissions:
+   
+   - **EC2 Access:** Required for launching and managing virtual machines.
+   - **ECR (Elastic Container Registry):** Enables you to save Docker images within AWS.
+
+   **Deployment Process:**
+   - Build the Docker image from the source code.
+   - Push the Docker image to ECR.
+   - Launch an EC2 instance.
+   - Pull the Docker image from ECR onto the EC2 instance.
+   - Start your Docker image on the EC2 instance.
+
+   **Policy Recommendations:**
+   - `AmazonEC2ContainerRegistryFullAccess`
+   - `AmazonEC2FullAccess`
+
+### 3. Create an ECR Repository
+
+   Create a repository to store and manage Docker images. Keep the URI handy for use during deployment:
+   - Example: `566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken`
+
+### 4. Launch an EC2 Machine (Ubuntu)
+
+### 5. Install Docker on the EC2 Machine
+
+   **Optional Updates:**
+   ```bash
+   sudo apt-get update -y
+   sudo apt-get upgrade
+   ```
+   **Docker Installation Commands:**
+   ```bash
+   curl -fsSL https://get.docker.com -o get-docker.sh
+   sudo sh get-docker.sh
+   sudo usermod -aG docker ubuntu
+   newgrp docker
+   ```
+
 
 
 
