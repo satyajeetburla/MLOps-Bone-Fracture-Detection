@@ -24,22 +24,22 @@
    Switch to the newly created fracture environment:
     ```bash
    conda activate fracture
-   ```
+      ```
 4.**Install the Dependencies:**
    Install all required dependencies using the requirements.txt file:
     ```bash
    pip install -r requirements.txt
-   ```
+      ```
 5.**Launch the Application:**
    Execute the application with:
     ```bash
    python app.py
-   ```
+      ```
 6.**Access the Web Interface:**
    Open your web browser and go to the local host address and port displayed to use the application.
     ```bash
    For me it was : 127.0.0.1
-    ```
+       ```
 ## Configuration Files
 
 - **Config.yaml:** Centralized storage for global project settings and paths.
