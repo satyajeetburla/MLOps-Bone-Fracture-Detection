@@ -12,7 +12,7 @@
    Clone the project repository using the following command:
 
    ```bash
-   git clone https://github.com/entbappy/Chicken-Disease-Classification--Project
+   [git clone https://github.com/entbappy/Chicken-Disease-Classification--Project](https://github.com/satyajeetburla/MLOps-Bone-Fracture-Detection.git)
    ```
 2. **Create a Conda Environment:**
 
@@ -21,6 +21,7 @@
     ```bash
    conda create -n fracture python=3.8 -y
    ```
+    
 3.**Activate the Environment:**
 
    Switch to the newly created fracture environment:
