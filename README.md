@@ -146,9 +146,19 @@ Utilized for tracking pipeline changes via `dvc.yaml`. Run `dvc init` to initial
    newgrp docker
    ```
 
+### 6. Configure EC2 as a Self-Hosted Runner
+   Navigate to Settings > Actions > Runners > New Self-Hosted Runner, select your OS, and follow the step-by-step       instructions.
 
+### 7. Set Up GitHub Secrets
+   Configure the following secrets in GitHub Actions:
 
-
+   AWS_ACCESS_KEY_ID
+   AWS_SECRET_ACCESS_KEY
+   AWS_REGION: e.g., us-east-1
+   AWS_ECR_LOGIN_URI: e.g., 566373416292.dkr.ecr.ap-south-1.amazonaws.com
+   ECR_REPOSITORY_NAME: e.g., simple-app
+   
+   
 
 
 
