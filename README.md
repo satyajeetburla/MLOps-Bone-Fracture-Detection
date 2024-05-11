@@ -33,7 +33,7 @@ This project aims to develop an end-to-end machine learning pipeline for classif
    Clone the project repository using the following command:
 
    ```bash
-   git clone https://github.com/entbappy/Chicken-Disease-Classification--Project
+   git clone https://github.com/satyajeetburla/MLOps-Bone-Fracture-Detection.git
    ```
 2. **Create a Conda Environment:**
 
@@ -146,7 +146,7 @@ Utilized for tracking pipeline changes via `dvc.yaml`. Run `dvc init` to initial
 ### 3. Create an ECR Repository
 
    Create a repository to store and manage Docker images. Keep the URI handy for use during deployment:
-   - Example: `566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken`
+   - Example: `566373416292.dkr.ecr.us-east-1.amazonaws.com/fracture`
 
 ### 4. Launch an EC2 Machine (Ubuntu)
 
@@ -188,15 +188,15 @@ Make sure your Azure credentials are securely stored to allow access to the cont
 
 1. **Build the Docker Image:**
    ```bash
-   docker build -t chickenapp.azurecr.io/chicken:latest .
+   docker build -t fractureapp.azurecr.io/fracture:latest .
    ```    
 2. **Log in to Azure Container Registry:**
    ```bash
-   docker login chickenapp.azurecr.io
+   docker login fractureapp.azurecr.io
    ```
 3. **Push the Docker Image:**
    ```bash
-   docker push chickenapp.azurecr.io/chicken:latest
+   docker push fractureapp.azurecr.io/fracture:latest
    ```
 Deployment Process
 1. **Build the Docker Image:**
