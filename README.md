@@ -45,6 +45,8 @@
    ```bash
    python app.py
    ```
+   "app.py" is a Flask application that facilitates training and prediction for a machine learning model, specifically for       image classification tasks.
+
       
 6. **Access the Web Interface:**
 
