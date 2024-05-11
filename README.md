@@ -146,7 +146,7 @@ Utilized for tracking pipeline changes via `dvc.yaml`. Run `dvc init` to initial
 ### 3. Create an ECR Repository
 
    Create a repository to store and manage Docker images. Keep the URI handy for use during deployment:
-   - Example: `566373416292.dkr.ecr.us-east-1.amazonaws.com/fracture`
+   - Example: `2749137998928.dkr.ecr.us-east-1.amazonaws.com/fracture`
 
 ### 4. Launch an EC2 Machine (Ubuntu)
 
@@ -166,7 +166,7 @@ Utilized for tracking pipeline changes via `dvc.yaml`. Run `dvc init` to initial
    ```
 
 ### 6. Configure EC2 as a Self-Hosted Runner
-   Navigate to Settings > Actions > Runners > New Self-Hosted Runner, select your OS, and follow the step-by-step       instructions.
+   Navigate to Settings > Actions > Runners > New Self-Hosted Runner, select your OS, and follow the step-by-step instructions.
 
 ### 7. Set Up GitHub Secrets
    Configure the following secrets in GitHub Actions:
@@ -174,7 +174,7 @@ Utilized for tracking pipeline changes via `dvc.yaml`. Run `dvc init` to initial
    AWS_ACCESS_KEY_ID
    AWS_SECRET_ACCESS_KEY
    AWS_REGION: e.g., us-east-1
-   AWS_ECR_LOGIN_URI: e.g., 566373416292.dkr.ecr.ap-south-1.amazonaws.com
+   AWS_ECR_LOGIN_URI: e.g., 2749137998928.dkr.ecr.ap-south-1.amazonaws.com
    ECR_REPOSITORY_NAME: e.g., simple-app
    
 # Azure Deployment with GitHub Actions
