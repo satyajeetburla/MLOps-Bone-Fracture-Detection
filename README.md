@@ -16,31 +16,30 @@
    ```
 2. **Create a Conda Environment:**
 
-Inside the project directory, set up a new Conda environment named fracture with Python 3.8:
- ```bash
-conda create -n fracture python=3.8 -y
-```
+   Inside the project directory, set up a new Conda environment named fracture with Python 3.8:
+    ```bash
+   conda create -n fracture python=3.8 -y
+   ```
 3.**Activate the Environment:**
-Switch to the newly created fracture environment:
- ```bash
-conda activate fracture
-```
+   Switch to the newly created fracture environment:
+    ```bash
+   conda activate fracture
+   ```
 4.**Install the Dependencies:**
-Install all required dependencies using the requirements.txt file:
-
- ```bash
-pip install -r requirements.txt
-```
+   Install all required dependencies using the requirements.txt file:
+    ```bash
+   pip install -r requirements.txt
+   ```
 5.**Launch the Application:**
-Execute the application with:
- ```bash
-python app.py
-```
+   Execute the application with:
+    ```bash
+   python app.py
+   ```
 6.**Access the Web Interface:**
-Open your web browser and go to the local host address and port displayed to use the application.
- ```bash
-For me it was : 127.0.0.1
- ```
+   Open your web browser and go to the local host address and port displayed to use the application.
+    ```bash
+   For me it was : 127.0.0.1
+    ```
 ## Configuration Files
 
 - **Config.yaml:** Centralized storage for global project settings and paths.
