@@ -158,8 +158,37 @@ Utilized for tracking pipeline changes via `dvc.yaml`. Run `dvc init` to initial
    AWS_ECR_LOGIN_URI: e.g., 566373416292.dkr.ecr.ap-south-1.amazonaws.com
    ECR_REPOSITORY_NAME: e.g., simple-app
    
-   
+# Azure Deployment with GitHub Actions
 
+## Save Credentials
+Make sure your Azure credentials are securely stored to allow access to the container registry.
 
+## Run These Commands
 
+### Build and Push Docker Image
+
+1. **Build the Docker Image:**
+   ```bash
+   docker build -t chickenapp.azurecr.io/chicken:latest .
+   ```    
+2. **Log in to Azure Container Registry:**
+   ```bash
+   docker login chickenapp.azurecr.io
+   ```
+3. **Push the Docker Image:**
+   ```bash
+   docker push chickenapp.azurecr.io/chicken:latest
+   ```
+Deployment Process
+1. **Build the Docker Image:**
+   Create a Docker image from the project's source code.
+
+2. **Push to Registry:**
+   Upload the Docker image to the Azure container registry.
+
+3. **Launch Web App Server:**
+   Create or launch a Web App server on Azure.
+
+4. **Pull and Run Docker Image:**
+   Retrieve the Docker image from the registry and run it on the Azure Web App server.
 
