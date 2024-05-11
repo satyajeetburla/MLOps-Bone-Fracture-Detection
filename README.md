@@ -31,6 +31,7 @@
     ```
     
 4.**Install the Dependencies:**
+
    Install all required dependencies using the requirements.txt file:
    
     ```bash
@@ -43,7 +44,7 @@
    
     ```bash
    python app.py
-      ```
+   ```
       
 6.**Access the Web Interface:**
 
@@ -51,7 +52,7 @@
    
     ```bash
    For me it was : 127.0.0.1
-       ```
+    ```
 ## Configuration Files
 
 - **Config.yaml:** Centralized storage for global project settings and paths.
