@@ -34,7 +34,7 @@
 
    Install all required dependencies using the requirements.txt file:
    
-    ```bash
+   ```bash
    pip install -r requirements.txt
     ```
     
@@ -42,7 +42,7 @@
 
    Execute the application with:
    
-    ```bash
+   ```bash
    python app.py
    ```
       
@@ -50,9 +50,10 @@
 
    Open your web browser and go to the local host address and port displayed to use the application.
    
-    ```bash
-   For me it was : 127.0.0.1
+   ```bash
+   For me it was : http://127.0.0.1:5000
     ```
+
 ## Configuration Files
 
 - **Config.yaml:** Centralized storage for global project settings and paths.
