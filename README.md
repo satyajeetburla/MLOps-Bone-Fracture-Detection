@@ -17,6 +17,7 @@
 2. **Create a Conda Environment:**
 
    Inside the project directory, set up a new Conda environment named fracture with Python 3.8:
+   
     ```bash
    conda create -n fracture python=3.8 -y
    ```
@@ -26,12 +27,15 @@
    
     ```bash
    conda activate fracture
-      ```
+    ```
+    
 4.**Install the Dependencies:**
    Install all required dependencies using the requirements.txt file:
+   
     ```bash
    pip install -r requirements.txt
-      ```
+    ```
+    
 5.**Launch the Application:**
 
    Execute the application with:
