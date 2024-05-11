@@ -4,6 +4,25 @@
 ## Overview
 This project aims to develop an end-to-end machine learning pipeline for classifying bone fractures from X-ray images. Leveraging MLOps practices with DVC, the solution was deployed on both Azure and AWS. The primary objective was to build a comprehensive MLOps project, using fracture classification as a simple yet effective demonstration to implement the entire pipeline.
 
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/satyajeetburla/MLOps-Bone-Fracture-Detection/blob/main/img/142.jpg" alt="First Image" width="200"/>
+    </td>
+    <td>
+      <img src="https://github.com/satyajeetburla/MLOps-Bone-Fracture-Detection/blob/main/img/174.jpg" width="200"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/satyajeetburla/MLOps-Bone-Fracture-Detection/blob/main/img/IMG0004347.jpg" width="200"/>
+    </td>
+    <td>
+      <img src="https://github.com/satyajeetburla/MLOps-Bone-Fracture-Detection/blob/main/img/IMG0004388.jpg" alt="Fourth Image" width="200"/>
+    </td>
+  </tr>
+</table>
+
 
 # How to Run
 
