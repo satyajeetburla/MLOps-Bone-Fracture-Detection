@@ -30,7 +30,7 @@
    conda activate fracture
     ```
     
-4.**Install the Dependencies:**
+4. **Install the Dependencies:**
 
    Install all required dependencies using the requirements.txt file:
    
@@ -38,7 +38,7 @@
    pip install -r requirements.txt
    ```
     
-5.**Launch the Application:**
+5. **Launch the Application:**
 
    Execute the application with:
    
@@ -46,7 +46,7 @@
    python app.py
    ```
       
-6.**Access the Web Interface:**
+6. **Access the Web Interface:**
 
    Open your web browser and go to the local host address and port displayed to use the application.
    
