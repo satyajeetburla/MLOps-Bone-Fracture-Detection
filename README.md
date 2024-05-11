@@ -58,7 +58,7 @@ This project aims to develop an end-to-end machine learning pipeline for classif
    For me it was : http://127.0.0.1:5000
    ```
 
-!([img/flask interface.png](https://github.com/satyajeetburla/MLOps-Bone-Fracture-Detection/blob/main/img/flask%20interface.png))
+([img/flask interface.png](https://github.com/satyajeetburla/MLOps-Bone-Fracture-Detection/blob/main/img/flask%20interface.png))
 
 
 ## Configuration Files
