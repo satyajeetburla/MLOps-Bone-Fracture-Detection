@@ -89,9 +89,15 @@ Utilized for tracking pipeline changes via `dvc.yaml`. Run `dvc init` to initial
 ### Some Other Scripts
 
 - **template.py:**  
-  This script sets up a standardized folder structure essential for developing the project. It helps maintain consistency across the workflow, making the project easier to manage, scale, and expand. By ensuring that required files and directories are created only if necessary, it upholds the principles of MLOps like modularity and reproducibility while reducing redundancy.
+  This script sets up a standardized folder structure essential for developing the project. It helps maintain consistency across the workflow, making the project easier to manage, scale, and expand. 
 
 - **utils/common.py:**  
-  Contains reusable util
+    Contains reusable utility functions for tasks like configuration management, file manipulation, logging, and data encoding. The functions are decorated with `@ensure_annotations`, ensuring that they adhere to specified type annotations for robust development and deployment. This makes debugging easier in large machine learning projects and ensures code consistency.
+
+
+
+
+
+
 
 
